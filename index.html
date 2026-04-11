@@ -10,6 +10,17 @@
 	<img src="logotipo.jpg" style="position: absolute; top: 0; left: 0; width: 150px; z-index: 1000;" alt="Logotipo">
 	
 	<body>
+	<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+    </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+     new window.VLibras.Widget('https://vlibras.gov.br/app');
+   </script>
+
 				
 		<form class = "login">
 			<h2> Login </h2>
@@ -34,5 +45,10 @@
 				Entrar
 				</a>
 				</form>	
+				<footer style="text-align: center; padding: 20px; position: fixed; bottom: 0; width: 100%; font-family: sans-serif; font-size: 14px; color: white;">
+    &copy; <span id="year"></span> Primeira turma - Desenvolvimento de Sistemas. Copyright Todos os direitos reservados ETEC 2026
+</footer>
+
+
 	</body>
 	</html>	

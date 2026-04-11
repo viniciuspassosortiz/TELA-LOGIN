@@ -162,4 +162,21 @@ body{
 	}
 }
 
-	
+html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .conteudo {
+            flex: 1 0 auto; /* Expande para ocupar o espaço */
+        }
+        footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    flex-shrink: 0; /* Impede o rodapé de diminuir */
+}
